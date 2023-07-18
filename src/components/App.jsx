@@ -63,6 +63,7 @@ export default class App extends Component {
         )}
          {showBtn && <Button onClick={this.onLoadMore} />}
          {isLoading && <Loader onClick={this.onLoadMore} />}
+        
          <Modal
             largeImage={largeImage}
             tags={tags}
